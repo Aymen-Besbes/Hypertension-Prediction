@@ -11,7 +11,7 @@ The dataset contains **26,083 entries** and **14 features**:
 | Column     | Description                       |
 |------------|-----------------------------------|
 | `age`      | Age of the patient                |
-| `sex`      | Gender (0: female, 1: male)       |
+| `sex`      | Gender                            |
 | `cp`       | Chest pain type                   |
 | `trestbps` | Resting blood pressure            |
 | `chol`     | Serum cholesterol                 |
@@ -23,7 +23,7 @@ The dataset contains **26,083 entries** and **14 features**:
 | `slope`    | Slope of ST segment               |
 | `ca`       | Number of major vessels colored   |
 | `thal`     | Thalassemia                       |
-| `target`   | Hypertension diagnosis (0 or 1)   |
+| `target`   | Hypertension diagnosis            |
 
 Some missing values (e.g., in `sex`) were handled during preprocessing.
 
@@ -53,7 +53,7 @@ Some missing values (e.g., in `sex`) were handled during preprocessing.
      - Confusion Matrix
 
 4. **Hyperparameter Tuning**  
-   - Applied Grid Search and/or Random Search for optimal parameters
+   - Applied Grid for optimal parameters
 
 ---
 
@@ -70,17 +70,10 @@ Some missing values (e.g., in `sex`) were handled during preprocessing.
 
 ---
 
-## 🚀 Getting Started
+## 💡 Conclusion
+The Decision Tree model achieved strong performance with 98% accuracy, while KNN showed perfect scores, which might indicate overfitting.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Hypertension-Prediction.git
-cd Hypertension-Prediction
-```
-
-2. Open and run the notebook:
-
-Use Jupyter Notebook or JupyterLab to open Hypertension_Prediction.ipynb
+---
 
 ## 📬 Contact
 Author: Aymen Besbes & Aws Gandouz Email: Aymen.besbes@outlook.com | Aymen.besbes@ensi-uma.tn
